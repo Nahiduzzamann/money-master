@@ -24,25 +24,25 @@
                 <div>
                     <p class="font-bold text-2xl mb-4">Income</p>
                     <label>Income:</label>
-                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" id="income">
+                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" value="0" id="income">
                     <p class="font-bold text-2xl mb-4 mt-4">Expenses</p>
                     <label>food:</label>
-                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" id="food"><br><br>
+                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" value="0" id="food"><br><br>
                     <label>Rent:</label>
-                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" id="rent"><br><br>
+                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" value="0" id="rent"><br><br>
                     <label>Others:</label>
-                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" id="other"><br><br>
+                    <input class="bg-gray-300 ml-2 p-1 pl-2" type="number" value="0" id="other"><br><br>
                     <button class="bg-teal-400 p-2 pl-10 pr-10 text-xl hover:bg-teal-600 text-white" id="calculate">Calculate</button>
-                    <p class="font-bold mt-4">Total Expenses: <span>0</span></p>
-                    <p class="font-bold mt-4 mb-4">Balance: <span>0</span></p>
+                    <p class="font-bold mt-4">Total Expenses: <span id="total-expenses">0</span></p>
+                    <p class="font-bold mt-4 mb-4">Balance: <span id="balance">0</span></p>
                     <div class="flex">
                         <label>Save:</label>
                         <input class="w-24 bg-gray-300 ml-2 pl-2 p-1" id="save" type="number">
                         <p class="ml-2 mr-2">%</p>
-                        <button class="bg-teal-400 p-1 pl-10 pr-10 text-xl text-white hover:bg-teal-600">Save</button>
+                        <button class="bg-teal-400 p-1 pl-10 pr-10 text-xl text-white hover:bg-teal-600" id="btn-save">Save</button>
                     </div>
-                    <p class="font-bold mt-4">Saving Amount: <span>0</span></p>
-                    <p class="font-bold mt-4 pb-6">Remaining Balance: <span>0</span></p>
+                    <p class="font-bold mt-4">Saving Amount: <span id="saving-amount">0</span></p>
+                    <p class="font-bold mt-4 pb-6">Remaining Balance: <span id="remaining-balance">0</span></p>
                 </div>
             </div>
         </div>
